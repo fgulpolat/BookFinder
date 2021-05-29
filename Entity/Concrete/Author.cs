@@ -9,7 +9,7 @@ namespace Entity.Concrete
     {
         public string Name { get; set; }
         public string Surname { get; set; }
-        public string Fullname { get { return Name + " " + Surname; } set {; } }
+        public string Fullname { get { return Name + " " + Surname; }}
         public ICollection<Book> Books { get; set; }
     }
 }

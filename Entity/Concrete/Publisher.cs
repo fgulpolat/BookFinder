@@ -8,6 +8,6 @@ namespace Entity.Concrete
    public class Publisher:EntityBase,IEntity
     {
         public string Name { get; set; }
-        public ICollection<Book> Books { get; set; }
+        public ICollection<BookPublisher> BookPublishers { get; set; }
     }
 }
